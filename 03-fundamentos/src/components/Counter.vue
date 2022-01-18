@@ -40,7 +40,7 @@ export default {
         },
 
         increaseCounter(){
-           this.counter++
+          this.counter++
         },
         
         decreaseCounter(){
