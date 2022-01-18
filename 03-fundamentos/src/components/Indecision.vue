@@ -33,7 +33,7 @@ export default {
                 this.answer = 'Pensando . . .'
 
                 const {answer, image} = await fetch('https://yesno.wtf/api').then( r => r.json())
-                console.log(answer)
+               
 
                 this.answer = answer
                 this.img = image
