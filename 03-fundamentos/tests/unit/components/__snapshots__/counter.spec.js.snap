@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter Component debe hacer match con el snapshot 1`] = `
+<h2>Counter 100</h2>
+<!-- La etiqueta sup crea un exponente-->
+<p>100 <sup>2</sup> = 10000</p>
+<div>
+  <!-- v-on:click y @click hace lo mismo --><button>+1</button><button>-1</button>
+</div>
+`;
